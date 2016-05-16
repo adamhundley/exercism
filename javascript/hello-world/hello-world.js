@@ -8,9 +8,9 @@ var HelloWorld = function() {};
 
 HelloWorld.prototype.hello = function(input) {
 //
-  input = input || 'World'
+  input = input || 'World';
 
-  return 'Hello, ' + input + '!'
+  return 'Hello, ' + input + '!';
 //
 };
 
