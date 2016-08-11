@@ -1,3 +1,4 @@
+
 var FoodChain = function() {
   var animals = [
     {},
@@ -29,7 +30,7 @@ var FoodChain = function() {
         for (var i = start; i <= end; i++) {
           song += 'She swallowed the '+ animals[i].name +' to catch the '+ animals[i-1].name + '.\n'
         }
-        
+
       }
     }
 
