@@ -7,7 +7,11 @@
 
 function helloWorld($name = null)
 {
-    //
-    // YOUR CODE GOES HERE
-    //
+  if ($name == null) {
+    $name = "World";
+  }
+
+  $saying = "Hello, " . $name ."!" ;
+  return $saying;
 }
+?>
